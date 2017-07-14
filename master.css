@@ -1,0 +1,96 @@
+@charset "";
+
+html{
+  font-size: 62.5%;
+}
+
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+body{
+  /*background: #151515 url('images/7011.jpg')no-repeat fixed left bottom;*/
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: "Hiragino kaku Gothic ProN",Meiryo,sans-serif;
+}
+.main{
+  width: auto;
+  margin-right: 30px;
+  float: right;
+  height: 60px;
+}
+.menu-{
+  color: #FFFFFF;
+  font-size: 120%;
+}
+.icn{
+text-align: center; 
+}
+/* ulリセット */
+.menu-, .menu-list {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.menu-case {
+  float: left;
+  width: 120px;
+}
+/* メニューを横並びに */
+.menu-name{
+  background-color: black;
+  width: 100px;
+}
+.menu-:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+/* 子メニュー分の高さを除く */
+.menu-list {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+  width: 10em;
+}
+/* 子メニューを表示 */
+.menu-name:hover + .menu-list, .menu-list:hover {
+  opacity: 1;
+  z-index: 1;
+}
+/* ホバー時、メニュー名の色変更 */
+.menu-case:hover .menu-name {
+  color: #507ea4;
+}
+.menu-one:hover{
+  color: #9AFE2E;
+}
+.menu-one{
+  text-align: center;
+  width: 100px;
+  background-color: #000000;
+  font-size: 80%;
+}
+
+.mainCanvas{
+  margin: 0;
+}
+canvas{
+  margin: 0;
+  text-align: center;
+}
+
+.image1{
+text-align: left;
+}
+.image2{
+  text-align: right;
+}
+
+.footer {
+  color: #999;
+  background-color:#fff;
+  padding: 50px 0;
+}

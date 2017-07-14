@@ -1,0 +1,18 @@
+﻿
+[{
+    "type": "image",
+    "name": "tome",
+    "src": "images/tome.JPG"
+}, {
+    "type": "image",
+    "name": "nya",
+    "src": "images/nya.JPG"
+}, {
+    "type": "image",
+    "name": "kutu1",
+    "src": "images/kutu3.PNG"
+}, {
+    "type": "image",
+    "name": "kutu2",
+    "src": "images/kutu2.PNG"
+}]
