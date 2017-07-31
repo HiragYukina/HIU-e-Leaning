@@ -26,7 +26,9 @@ body{
   font-size: 120%;
 }
 .icn{
-text-align: center; 
+text-align: right;
+margin-right: 5px;
+height: 25px;
 }
 /* ulリセット */
 .menu-, .menu-list {
@@ -36,12 +38,12 @@ text-align: center;
 }
 .menu-case {
   float: left;
-  width: 120px;
+  width: 85px;
 }
 /* メニューを横並びに */
 .menu-name{
   background-color: black;
-  width: 100px;
+  width: 80px;
 }
 .menu-:after {
   content: "";
@@ -87,6 +89,30 @@ text-align: left;
 }
 .image2{
   text-align: right;
+}
+
+#Top{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+#Top a{
+  display: block;
+  z-index: 999;
+  padding: 8px 0 0 8px;
+  border-radius: 30px;
+  width: 40px;
+  height: 40px;
+  background-color: #9fd6d2;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+  text-align: right;
+}
+
+#Top a:hover{
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 .footer {
